@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/perfil.jpg" alt="avatar da Kaique" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Kaique_</p>
+        <h1>Sou estudante de programação</h1>
+        <p>Tenho 17 anos, moro em Piquete-SP e estudo programação a 2 anos </p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Biblioteca.jpg" class="card-img-top" alt="Imagem do Aluna books">
+                    <div class="card-body">
+                        <h5 class="card-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta uma lista dos meus livros
+                            favoritos, incluindo informações sobre os autores, datas de publicação 
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/aventura.jpeg" class="card-img-top" alt="Imagem do projeto de uma Aventura">
+                    <div class="card-body">
+                        <h5 class="card-title">Aventura no floresta</h5>
+                        <p class="card-text">Este projeto é um jogo interativo com o intuito de ser uma aventura misteriosa com um grande tesouro ao final.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/download.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Corrida maluca
+                        </h5>
+                        <p class="card-text">Projeto criado no site P5js com o intuito de usar a função de aleatoridade na movimentação dos bonecos. Dessa forma, e imprevisivel quem ganhara a corrida.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca /h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Explore um vasto universo de conhecimento ao seu alcance, com uma biblioteca virtual repleta de livros, artigos e recursos interativos. Navegue por categorias variadas, de clássicos da literatura a pesquisas acadêmicas, tudo em um único lugar. Organize suas leituras, destaque passagens importantes e compartilhe suas descobertas com outros leitores. Uma verdadeira jornada de aprendizado sem sair de casa, onde o saber está a apenas um clique de distância.</p>
+                    <img src="img/Biblioteca.jpg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://isabelaanjos.github.io/alurabookskaique/">Ver projeto ao vivo</a>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Adentre uma floresta densa e imponente, onde os ecos de um passado esquecido ainda ressoam entre as árvores. Em seu caminho, você encontrará os vestígios de uma antiga cidade perdida, agora engolida pela vegetação e pelo tempo. Cada ruína, cada artefato abandonado guarda uma história há muito esquecida. O que aconteceu ali? Você está pronto para descobrir os segredos que a natureza ocultou por séculos?
+                    </p>
+            
+                    <img src="img/aventura.jpeg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://isabelaanjos.github.io/Criando-sua-aventura-K/">Ver projeto ao
+                        vivo</a>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"> </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Entre na disputa de reflexos mais rápidos e destreza de dedos! Em uma competição onde cada segundo conta, você terá que clicar mais rápido que seus oponentes para vencer. O ritmo acelera à medida que o tempo passa, e os desafios se tornam mais intensos. Prepare-se para testar seus limites em uma corrida frenética – quem será o mestre do clique rápido?
+
+</p>
+        
+                    <img src="img/download.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/00001120767222sp/sketches/he0VaYJZf">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+  
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Kaique Henrique</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
